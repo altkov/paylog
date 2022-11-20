@@ -1,0 +1,20 @@
+{
+    "name": "altkov/paystat",
+    "description": "php app helping you collect data about your payments",
+    "autoload": {
+        "psr-4": {
+            "Query\\": "app/Query",
+            "Model\\": "app/Model"
+        },
+        "classmap": [
+            "app/DB.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "altkov",
+            "email": "alt-kov@yandex.ru"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+input[type="text"], input[type="date"] {
+    display: block;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+body {
+    padding: 100px 50px;
+    font-size: 24px;
+}
+
+.grid {
+    display: flex;
+    width: 100%;
+}
+
+.grid__cell {
+    width: 50%;
+    padding: 10px;
+}
